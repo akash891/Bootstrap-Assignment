@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+/*CSS for the Large screen*/
+@media screen and (min-width:1200px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.img-slider{
+        background-color:lime;
+        height: 80px    ;
+    }
+
+}
+@media screen and (max-width:1200px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.img-slider{
+        background-color:lightskyblue;
+        height: 100px    ;
+    }
+
+}
+@media screen and (max-width:990px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.img-slider{
+        background-color:lightsalmon;
+        height: 150px    ;
+    }
+
+}
+@media screen and (max-width:770px){
+    .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8,.img-slider{
+        background-color:yellowgreen;
+        height: 70px    ;
+    }
+
+}
